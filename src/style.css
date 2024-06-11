@@ -44,18 +44,73 @@ table {
 	border-spacing: 0;
 }
 
-.cheetah-portrait, .two-cheetahs {
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* HEADER || */
+.header-content-wrapper {
+  background-color: rgb(231, 174, 29);
+  padding: 3em;
+}
+
+.margin-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10em;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+}
+
+.about-me-text > p {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.about-me-text {
+  
+}
+
+.about-me-div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1.2em;
+  min-height: 18em;
+}
+
+.about-me-icons {
+  /* display: flex; */
+  align-self: end;
+  justify-self: end;
+}
+
+.cheetah-portrait {
   width: 300px;
 }
 
-.icon {
-  width: 30px;
+.about-me-icons > button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  width: 50px;
 }
 
 .phone-number, .email {
   display: flex;
 }
 
+.two-cheetahs {
+  width: 200px;
+}
+
 div {
-  border: solid 1px rgb(89, 89, 89);
+  /* border: solid 1px rgb(89, 89, 89); */
 }
