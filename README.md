@@ -12,8 +12,8 @@
 ## Getting Started
 
 ```
-$ git clone git@github.com:immacheetah/project-name.git
-$ cd propject-name
+$ git clone git@github.com:immacheetah/homepage.git
+$ cd homepage
 $ npm run build
 $ npm start
 ```
@@ -21,3 +21,9 @@ $ npm start
 ## Learning Outcomes
 
 -
+
+## Photos
+Photo by <a href="https://unsplash.com/@hariprasad000?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hari Nandakumar</a> on <a href="https://unsplash.com/photos/2-cheetahs-at-field-during-daytime-uIrWBJEvjC4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by Tomáš Malík: https://www.pexels.com/photo/cheetah-in-serengeti-africa-10399172/
+  
