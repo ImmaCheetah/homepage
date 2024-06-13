@@ -106,6 +106,14 @@ h1 {
 }
 
 /* SECTION || */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15%;
+}
+
 .section-content-wrapper {
   display: flex;
   flex-direction: column;
@@ -113,21 +121,22 @@ h1 {
 
 h2 {
   font-size: 3em;
-  padding: 0.2em;
+  /* padding: 0.2em; */
+  align-self: flex-start;
 }
 
 .grid-wrapper {
   width: 100%;
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(32em, 1em));  */
+  grid-template-columns: repeat(auto-fill, minmax(25em, 1fr)); 
   /* grid-template-columns: repeat(auto-fill, 28em); */
-  grid-template-columns: auto auto auto;
+  /* grid-template-columns: auto auto auto; */
   grid-auto-flow: row;
-  justify-content: center;
+  justify-content: space-between;
   justify-items: center;
-  column-gap: 4em;
+  column-gap: 1em;
   row-gap: 2em;
-  padding-top: 5em;
+
 }
 
 .project-div {
