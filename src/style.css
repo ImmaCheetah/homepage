@@ -96,7 +96,6 @@ header {
   justify-content: center;
   align-items: center;
   max-width: 82em;
-  /* margin: 0 10em; */
 }
 
 h1 {
@@ -107,6 +106,8 @@ h1 {
 
 .portrait-div {
   position: relative;
+  width: 20em;
+  float: left;
 }
 
 .name {
@@ -119,8 +120,14 @@ h1 {
 }
 
 .about-me-text {
-  display: flex;
-  flex-direction: column;
+  background-color: white;
+  padding: 1.2em;
+  min-height: 18em;
+  box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.136);
+  /* margin-top: 2em; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(0, 50%); */
 }
 
 .about-me-text > p {
@@ -128,22 +135,20 @@ h1 {
   padding: 1em;
 }
 
-.about-me-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: white;
-  padding: 1.2em;
-  min-height: 18em;
-  box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.136);
+.paragraph {
+  font-size: 1.5em;
+  padding: 1em;
 }
 
 .about-me-icons {
-  align-self: end;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
 .cheetah-portrait {
-  width: 300px;
+  width: 19em;
+  margin-right: 1em;
   box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.136);
 }
 
@@ -280,8 +285,14 @@ h4 {
     margin: 0;
   }
 
-  .cheetah-portrait {
-    float: left;
+  .name {
+    top: 5px;
+    left: 250px;
+  }
+
+  .about-me-text {
+    margin-top: 4em;
+    margin-left: 4em;
   }
 
   .grid-wrapper {
@@ -307,6 +318,7 @@ h4 {
 
   h1 {
     align-self: center;
+    text-align: center;
   }
 
   h2 {
@@ -314,17 +326,36 @@ h4 {
   }
 
   .about-me-div {
-    width: auto;
-    background-color: transparent;
-    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portrait-div {
+    width: 100%;
   }
 
   .cheetah-portrait {
+    position: relative;
     width: 25em;
+    margin: 0;
+  }
+
+  .name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .about-me-text {
+    margin: 0;
+    box-shadow: none;
   }
 
   .about-me-icons {
-    align-self: center;
+    justify-content: center;
   }
 
   .two-cheetahs {
