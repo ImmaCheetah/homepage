@@ -1,0 +1,88 @@
+/* HEADER || */
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-design {
+  background-color: rgb(231, 174, 29);
+  box-shadow: 1px 2px 10px 2px rgba(49, 49, 49, 0.136);
+  width: 100vw;
+  height: 40em;
+  position: absolute;
+  top: -11em;
+  z-index: -1;
+  transform: skew(0deg, -8deg);
+}
+
+.header-content-wrapper {
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 82em;
+  
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+}
+
+.portrait-div {
+  position: relative;
+  width: 20em;
+  float: left;
+}
+
+.name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 3em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.about-me-div {
+  position: relative;
+}
+
+.about-me-text {
+  background-color: white;
+  padding: 1.2em;
+  min-height: 18em;
+  margin-top: 2.2em;
+  box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.136);
+  top: 8%;
+  left: 19em;
+}
+
+.about-me-text > p {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.paragraph {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.about-me-icons {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.cheetah-portrait {
+  width: 19em;
+  margin-right: 1em;
+  box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.136);
+}
+
+.about-me-icons > button {
+  width: 4em;
+}

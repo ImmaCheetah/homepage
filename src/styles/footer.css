@@ -1,0 +1,47 @@
+/* FOOTER || */
+footer {
+    background-color: rgb(231, 174, 29);
+    margin-top: 5em;
+    color: white;
+  }
+  
+  .footer-content-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+    gap: 1em;
+  }
+  
+  h4 {
+    font-size: 3em;
+  }
+  
+  .contact-me-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 25em;
+    gap: 1em;
+  }
+  
+  .contact-me-text, .email-address, .phone-number {
+    font-size: 1.4em;
+  }
+  
+  .phone, .email {
+    width: 1.2em;
+    padding-right: 0.4em;
+  }
+  
+  .phone-number, .email-address {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .contact-me-icons > button {
+    width: 4em;
+  }
+  
+  .two-cheetahs {
+    width: 30em;
+  }

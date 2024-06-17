@@ -1,0 +1,98 @@
+@media (max-width: 999px) {
+    .two-cheetahs {
+      height: 20em;
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 1350px) {
+    .header-content-wrapper {
+      margin: 0;
+    }
+  
+    .name {
+      top: 5px;
+      left: 250px;
+    }
+  
+    .about-me-text {
+      margin-top: 4em;
+      margin-left: 4em;
+    }
+  
+    .grid-wrapper {
+      grid-template-columns: repeat(2, 400px);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .grid-wrapper {
+      grid-template-columns: repeat(1, 400px);
+    }
+  
+    .footer-content-wrapper {
+      flex-wrap: wrap;
+      padding-bottom: 0;
+    }
+  
+    .header-content-wrapper {
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    h1 {
+      align-self: center;
+      text-align: center;
+    }
+  
+    h2 {
+      align-self: center;
+    }
+  
+    .about-me-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .portrait-div {
+      width: 100%;
+    }
+  
+    .cheetah-portrait {
+      position: relative;
+      width: 25em;
+      margin: 0;
+    }
+  
+    .name {
+      position: absolute;
+      top: auto;
+      right: auto;
+      left: 130px;
+      bottom: 0;
+  
+    }
+  
+    .about-me-text {
+      margin: 0;
+      box-shadow: none;
+    }
+  
+    .about-me-icons {
+      justify-content: center;
+    }
+  
+    .two-cheetahs {
+      height: auto;
+      width: 100vw;
+    }
+  
+    .contact-me-icons, h4 {
+      align-self: center;
+    }
+  }
+  
+  
