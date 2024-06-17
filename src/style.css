@@ -344,9 +344,11 @@ h4 {
 
   .name {
     position: absolute;
+    top: auto;
+    right: auto;
+    left: 130px;
     bottom: 0;
-    left: 0;
-    right: 0;
+
   }
 
   .about-me-text {
